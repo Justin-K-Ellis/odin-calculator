@@ -35,10 +35,3 @@ function calculate(expression) {
 }
 
 displayKeyPress();
-
-// equals.addEventListener("click", () => {
-//     const expression = displayNumber.textContent;
-//     const expressionArray = parseEquation(expression);
-//     const result = operate(expressionArray);
-//     displayNumber.textContent = result;
-// })
