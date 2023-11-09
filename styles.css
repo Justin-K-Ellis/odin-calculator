@@ -1,3 +1,7 @@
+* {
+    font-size: large;
+}
+
 .outer-container {
     margin: auto;
     width: 50%;
@@ -21,6 +25,9 @@
     border-radius: 10px;
     background-color: palegoldenrod;
     margin-bottom: 5px;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
 }
 
 .buttons {
@@ -37,4 +44,5 @@
 
 button {
     flex: 1;
+    /* border-radius: 7em; */
 }
