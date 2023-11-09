@@ -62,14 +62,12 @@ function displayKeyPress() {
     })
 }
 
+// Parse input into numerals and operators
 function parseEquation(str) {
     return str.split("");
 }
 
 displayKeyPress();
-// let exp = displayKeyPress();
-// let expArray = parseEquation(exp);
-// let result = operate(expArray);
 
 equals.addEventListener("click", () => {
     const expression = displayNumber.textContent;

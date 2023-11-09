@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <title>Odin Calculator</title>
 </head>
 <body>
     <div class="outer-container">
         <div class="body">
-            <div class="calc-display">1234567890</div>
+            <div class="calc-display">0</div>
             <div class="buttons">
                 <div class="row">
-                    <button>0</button>
-                    <button>=</button>
-                    <button>AC</button>
-                    <button>+</button>
+                    <button class="digit">0</button>
+                    <button class="function-key" id="equals">=</button>
+                    <button class="function-key">AC</button>
+                    <button class="operation-key">+</button>
                 </div>
                 <div class="row">
-                    <button>7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>-</button>
+                    <button class="digit">7</button>
+                    <button class="digit">8</button>
+                    <button class="digit">9</button>
+                    <button class="operation-key">-</button>
                 </div>
                 <div class="row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>*</button>
+                    <button class="digit">4</button>
+                    <button class="digit">5</button>
+                    <button class="digit">6</button>
+                    <button class="operation-key">*</button>
                 </div>
                 <div class="row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>/</button>
+                    <button class="digit">1</button>
+                    <button class="digit">2</button>
+                    <button class="digit">3</button>
+                    <button class="digit">/</button>
                 </div>
             </div>
         </div>
