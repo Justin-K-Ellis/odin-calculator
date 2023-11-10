@@ -30,7 +30,10 @@ function displayKeyPress() {
 }
 
 function calculate(expression) {
-    const result = Function("return " + expression)();
+    let result = Function("return " + expression)();
+    if (result === Infinity) {
+        result = "YOU CANNOT DIVIDE BY ZERO YOU STUPID MOTHERFUCKER";
+    }
     return result;
 }
 
