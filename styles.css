@@ -47,7 +47,6 @@ button {
     /* border-radius: 7em; */
 }
 
-#ac,
-#zero {
+#ac {
     flex: 2.2;
 }
