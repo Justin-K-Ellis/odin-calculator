@@ -1,8 +1,5 @@
 // Variables for display
 let displayNumber = document.querySelector(".calc-display");
-const digits = document.querySelectorAll(".digit");
-const operationKeys = document.querySelector(".operation-key");
-const functionKeys = document.querySelector(".function-key");
 const allKeys = document.querySelectorAll("button");
 const equals = document.querySelector("#equals");
 
