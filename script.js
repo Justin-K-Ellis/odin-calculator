@@ -29,7 +29,7 @@ function displayKeyPress() {
 function calculate(expression) {
     let result = Function("return " + expression)();
     if (result === Infinity) {
-        result = "YOU CANNOT DIVIDE BY ZERO YOU STUPID MOTHERFUCKER";
+        result = "Sorry, but dividing by zero doesn't make sense.";
     }
     return result;
 }
